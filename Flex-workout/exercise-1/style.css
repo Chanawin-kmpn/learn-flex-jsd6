@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  border: 5px solid hsl(308, 39%, 35%);
+  border-radius: 10px;
+  width: 12%;
+  height: 50vh;
+  overflow: hidden;
+}
+
+header,
+main,
+footer {
+  padding: 1rem;
+}
+
+header,
+footer {
+  background-color: hsl(309, 17%, 77%);
+}
+
+main {
+  flex: 1;
+}

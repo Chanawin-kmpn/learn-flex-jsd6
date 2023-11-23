@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  /* border: 1px solid red; */
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+li {
+  flex: 1 1 80px;
+  /* max-width: 100px; */
+  color: #fff;
+  list-style: none;
+  border-radius: 5px;
+  background-color: hsl(308, 39%, 35%);
+  padding: 0.5rem;
+}
